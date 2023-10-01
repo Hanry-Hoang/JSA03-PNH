@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(350deg,#eb92be,#ffef78,#63c9b4);
+    
+}
+
+#nav {
+    height: 75px;
+    width: 100%;
+    background-color:#D14D72;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    list-style: none;
+    font-size: 30px;
+    margin: 15px 10px;
+    font-weight: 600;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #f5fbf1;
+}
+
+#nav ul li a:hover {
+    color: #FFABAB;
+}
+
+#nav ul li a i {
+    margin-top: 5px;
+}
+
+.logo {
+    width: 55px;
+}
+
+.searchbar {
+    height: 35px;
+    width: 250px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 40px;
+    margin-left: -5px;
+    border-radius: 5px;
+}
+
+.slide {
+    width: 80%;
+    height: 700px;
+    margin-top: 20px;
+}
+#slideshow{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #D14D72;
+}
+
+#footer-title{
+    font-size: 40px;
+    color:#f5fbf1 ;
+}
+#footer-icons i{
+    font-size: 40px;
+    margin: 0 5px;
+    color: #f5fbf1;
+}
+
+#footer-icons i:hover{
+    color: #6fb3c6;
+}
+#footer-map{
+    margin:0;
+    color:hsl(hue, saturation, lightness);
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    
+}
+#footer-map-1{
+    margin-bottom: 15px;
+}
+#footer-map-2{
+    margin-top: 70px;
+}
+hr{
+    font-size: 30px;
+}
+
+#footer-info{
+    margin-left: 10px;
+}
+#footer-icons{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#signup-form form label, #signup-form form input{
+    font-size: 17px;
+    color:#eb92be;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 3s;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF9B9B;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: 3s;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+  
+.dropdown-content a {
+    color:#f1f1f1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color: #FFABAB}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#sign-up form {
+    background-color: #f1f1f1;
+}
+
+.container{
+    margin: 5% auto;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+input{
+    appearance: none;
+    border-radius: 0;
+}
+
+.card{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 425px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(#999, .25);
+    padding: .75rem;
+}
+
+.card-image{
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 65%;
+    background-image: url('https://img3.thuthuatphanmem.vn/uploads/2019/09/11/anh-background-de-tai-trung-thu_105458853.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 0 5%;
+    position: relative;
+}
+
+.card-heading{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    right: 10%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color:white;
+    line-height: 1.222;
+}
+
+.card-form{
+    padding: 2rem 1rem 0;
+}
+
+.input{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+}
+
+.input-label{
+    color: #8597a3;
+    position: absolute;
+    top: 0.25rem;
+    transition: .25 ease;
+}
+
+#input-field,#input-field-1,#input-field-2,#input-field-3,#input-field-4{
+    border: 0;
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 2px solid #eee;
+    font: inherit;
+    font-size: 1.125rem;
+    padding: .25rem 0;
+}
+
+.action{
+    margin-top: 2rem;
+}
+
+.action-button{
+    font: inherit;
+    font-size: 1.125rem;
+    padding: 1em;
+    width: 100%;
+    font-weight: 500;
+    background-color: #6658d3;
+    border-radius: 6px;
+    color: #FFF;
+    border: 0;
+}
+
+.card-info {
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: .875rem;
+    color: #8597a3;
+}
+   
+   
+   
+   

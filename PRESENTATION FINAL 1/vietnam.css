@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#B70404,#DB005B,#FFE569);
+}
+#nav {
+    height: 75px;
+    width: 100%;
+    background-color:#D14D72;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    list-style: none;
+    font-size: 30px;
+    margin: 15px 10px;
+    font-weight: 600;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #f5fbf1;
+}
+
+#nav ul li a:hover {
+    color: #FFABAB;
+}
+
+#nav ul li a i {
+    margin-top: 5px;
+}
+
+.logo {
+    width: 55px;
+}
+
+.searchbar {
+    height: 35px;
+    width: 250px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 40px;
+    margin-left: -5px;
+    border-radius: 5px;
+}
+
+.slide {
+    width: 80%;
+    height: 700px;
+    margin-top: 20px;
+}
+#slideshow{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #D14D72;
+}
+
+#vechungtoi{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #FF9B9B;
+    padding:10px 0 20px;
+    border-radius: 25px;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 3s;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF9B9B;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: 3s;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+  
+.dropdown-content a {
+    color:#f1f1f1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color:#FFABAB}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+#sign-up form {
+    background-color: #f1f1f1;
+
+}
+
+#footer{
+    display:flex;
+    background-color: #06344c;
+    justify-content: space-around;
+}
+#footer-title{
+    font-size: 40px;
+    color:#f5fbf1 ;
+}
+#footer-icons i{
+    font-size: 40px;
+    margin: 0 5px;
+    color: #f5fbf1;
+}
+
+#footer-icons i:hover{
+    color: #6fb3c6;
+}
+#footer-map{
+    margin:0;
+    color:hsl(hue, saturation, lightness);
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    
+}
+#footer-map-1{
+    margin-bottom: 15px;
+}
+#footer-map-2{
+    margin-top: 70px;
+}
+hr{
+    font-size: 30px;
+}
+
+#footer-info{
+    margin-left: 10px;
+}
+#footer-icons{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#signup-form form label, #signup-form form input{
+    font-size: 17px;
+    color:#eb92be;
+}
+
+#vietnam{
+    text-align: center;
+}
+
+#trungthu-1{
+    font-size: 25px;
+    margin-top: 70px;
+    background:linear-gradient(320deg,#393646,#4F4557,#6D5D6E);
+    height: 120px;
+    padding: 10px 0 20px;
+    width: 50%;
+    margin: 80px auto;
+    color:#F4EEE0;
+    font-weight: 900;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#trungthu-2{
+    width: 70%;
+    height: 200px;
+    font-weight: 800;
+    color:#E3FDFD;
+    font-size:30px;
+    margin: 100px auto;
+    text-align: center;
+    background-color:#71C9CE;
+    padding:30px 0 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#trungthu-2-2{
+    color: #35155D;
+}
+
+#trungthu-3{
+    font-size: 20px;
+    background-color: #b0d5e0;
+    width: 63%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left:20px;
+    color: #FF6969
+}
+
+#trungthu-3:hover{
+    color: #00ADB5;
+}
+
+#trungthu-4{
+    background-color: #e9e3b9;
+    width: 92%;
+    height: 250px;
+    font-size: 23px;
+    margin: 100px auto;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+#trungthu-5{
+    background-color:#71C9CE;
+    color:#E3FDFD;
+    width: 62%;
+    height: 120px;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#trungthu-5:hover{
+    color: #F38181;
+}
+
+#vietnam-4{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% auto;
+}
+
+#trungthu-image-4-1 img{
+    width: 70%;
+    display: flex;
+    margin: 2% auto;
+}
+
+#trungthu-image-1 img,#trungthu-image-2 img,#trungthu-image-3 img,#trungthu-image-4 img,#trungthu-image-5 img,#trungthu-image-6 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    margin-left: 20px;
+}
+
+#trungthu-6{
+    background-color: #071952;
+    color: #97FEED;
+    height: 250px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+#vietnam-5{
+    width: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7% auto;
+
+}
+
+#trungthu-7{
+    background-color: #6528F7;
+    color: #EDE4FF;
+    height: 150px;
+    width: 2800px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 50px;
+    margin-top: 140px;
+
+}
+
+#vietnam-6{
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7% auto;
+}
+
+
+#trungthu-8{
+    background-color: #8785A2;
+    color: #FFC7C7;
+    height: 300px;
+    width: 1000px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#vietnam-7{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% auto;
+
+}
+
+#trungthu-9{
+    background-color: #08D9D6;
+    color: #252A34;
+    height: 320px;
+    width: 1000px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+
+}
+
+#vietnam-8{
+    width: 87%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10% auto;
+
+}
+
+#trungthu-10{
+    background-color: #6C3428;
+    color:#DFA878;
+    height: 370px;
+    width: 1000px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+
+#vietnam-9{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12% auto;
+
+}
+
+#trungthu-11{
+    background-color: #F38181;
+    color:#FCE38A;
+    height: 300px;
+    width: 2000px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+

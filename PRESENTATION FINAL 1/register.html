@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tết Trung Thu </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div id="nav">
+        <div id="nav-left">
+            <ul>
+                <div class="dropdown">
+                    <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                    <div class="dropdown-content">
+                    <a href="china.html">Trung Quốc</a>
+                    <a href="vietnam.html">Việt Nam</a>
+                    <a href="#">Đông Nam Á</a>
+                    <a href="#">Châu Á</a>
+                    </div>
+                  </div>
+                <li><a href="about.html">Trang chủ </a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Địa điểm</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div id="nav-right">
+            <ul>
+                <li>
+                    <input type="text" class="searchbar" placeholder="Tìm kiếm mọi thứ tại đây...">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-circle-user"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <h2 class="card-heading">
+                    BẮT ĐẦU
+                    <small>Hãy để chúng tôi tạo tài khoản cho bạn</small>                
+                </h2>
+            </div>
+            <form class="card-form">
+                <div class="input">
+                    <input type="text" id="input-field" placeholder="Phan Nguyen Hoang" required>
+                    <label class="input-label">Họ và tên</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="input-field-1" placeholder="hoang2006@gmail.com" required>
+                    <label class="input-label">Email</label>
+                </div>
+                <div class="input">
+                    <input type="number" id="input-field-2" placeholder="+84..." required>
+                    <label class="input-label">Số điện thoại</label>
+                </div>
+                <div class="input">
+                    <input type="password" id="input-field-3" required>
+                    <label class="input-label">Mật khẩu</label>
+                </div>
+                <div class="input">
+                    <input type="password" id="input-field-4" required>
+                    <label class="input-label"> Xác nhận mật khẩu</label>
+                </div>
+                <div class="action">
+                    <button class="action-button" onclick="testFuction()">Đăng kí</button>
+                </div>
+            </form>
+            <div class="card-info">
+                <p>Bằng cách đăng ký, bạn đồng ý với <a href="#">Điều khoản và Điều kiện của chúng tôi</a></p>
+            </div>
+        </div>
+    </div> 
+           
+
+    <div id="footer-map">
+         <div id="footer-map-1">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2413360003266!2d106.65027317495775!3d10.792819189356905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293c4d01354d%3A0xf3c12d012ca04492!2sMindX%20Technology%20School%20(Tr%C6%B0%E1%BB%9Dng%20Chinh)!5e0!3m2!1svi!2s!4v1690729817312!5m2!1svi!2s"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                    </div>
+                <div id="footer-map-2">
+                    <div id="footer-info">
+                        <h1 id="footer-title">TẾT TRUNG THU</h1>
+                </div>
+                <div id="footer-icons">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-reddit-square"></i></a>
+                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                </div>
+
+               </div>
+            </div>
+            
+
+          
+
+      
+
+</body>
+        <script src="register.js"></script>
+        
+
+</html>
